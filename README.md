@@ -1,2 +1,4 @@
 # g243h1t
-### nome
+
+#Victor Komadaki - 36
+#Mary - 32
