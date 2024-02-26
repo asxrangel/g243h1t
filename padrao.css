@@ -1,0 +1,29 @@
+.barra {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(121, 185, 140);
+    text-align: center;
+}
+
+#dispositivo {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+@media (min-width: 800px) {
+    .barra{
+        height: 150px;
+        background-color: rgb(161, 216, 253);
+    }
+    #dispositivo {
+        display: none;
+    }
+}
+
+@media (min-width: 1228px){
+    .barra {
+        height: 200px;
+        background-color: cadetblue;
+    }
+}
