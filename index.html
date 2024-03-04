@@ -7,14 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/padrao.css">
+    <script src="./js/script.js"></script>
 </head>
 
 <body>
     <header class="barra">
-        <span id="dispositivo">Mobile</span>
+        <span class="mobile">Mobile</span>
+        <span class="tablet">Tablet</span>
+        <span class="desktop">Desktop</span>
     </header>
     <section class="conteudo">
-        
+        <div class="sorteio">
+            De:<input type="number" id="inicio"> <br>
+            Até:<input type="number" id="fim"> <br>
+            <button onclick="fazerSorteio()">Sortear</button> <br>
+            <div class="valor">
+                <span id="resultado"></span>
+            </div>
+        </div>
     </section>
     <footer class="rodape">
 Direitos reservados: Victor Komadaki e Marianna Mika.

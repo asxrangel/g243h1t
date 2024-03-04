@@ -5,19 +5,32 @@
     text-align: center;
 }
 
-#dispositivo {
+.mobile{
     font-size: 60px;
-    color: white;
+    color: rgb(7, 56, 3);
     text-align: center;
 }
+.tablet{
+    display: none;
+}
+.desktop{
+    display: none;
+}
+
 
 @media (min-width: 800px) {
     .barra{
         height: 150px;
         background-color: rgb(161, 216, 253);
     }
-    #dispositivo {
+    .mobile {
         display: none;
+    }
+    .tablet {
+        display: inline;
+        font-size: 70px;
+        color: rgb(5, 0, 80);
+        text-align: center; 
     }
 }
 
@@ -25,5 +38,14 @@
     .barra {
         height: 200px;
         background-color: cadetblue;
+    }
+    .tablet {
+        display: none;
+    }
+    .desktop {
+        display: inline;
+        font-size: 70px;
+        color: rgb(155, 221, 229);
+        text-align: center; 
     }
 }
