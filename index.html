@@ -17,12 +17,18 @@
         <span class="desktop">Desktop</span>
     </header>
     <section class="conteudo">
-        <div class="sorteio">
-            De:<input type="number" id="inicio"> <br>
-            Até:<input type="number" id="fim"> <br>
-            <button onclick="fazerSorteio()">Sortear</button> <br>
-            <div class="valor">
-                <span id="resultado"></span>
+        <div class="abas">
+            <div class="btns">
+                <button class="botoes" onclick="escolher_aba(1)" id="btn1">Aba 01</button>
+                <button class="botoes" onclick="escolher_aba(2)" id="btn2">Aba 02</button>
+                <button class="botoes" onclick="escolher_aba(3)" id="btn3">Aba 03</button>
+                <button class="botoes" onclick="escolher_aba(4)" id="btn4">Aba 04</button>
+            </div>
+            <div class="divisoes">
+                <div class="aba1"></div>
+                <div class="aba2"></div>
+                <div class="aba3"></div>
+                <div class="aba4"></div>
             </div>
         </div>
     </section>
