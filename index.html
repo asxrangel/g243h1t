@@ -25,7 +25,9 @@
                 <button class="botoes" onclick="escolher_aba(4)" id="btn4">Aba 04</button>
             </div>
             <div class="divisoes">
-                <div class="abageral aba1" id="ab1"></div>
+                <div class="abageral aba1" id="ab1">
+                    Hora Atual: <span id="h"></span>
+                </div>
                 <div class="abageral aba2" id="ab2"></div>
                 <div class="abageral aba3" id="ab3"></div>
                 <div class="abageral aba4" id="ab4"></div>
@@ -37,6 +39,7 @@ Direitos reservados: Victor Komadaki e Marianna Mika.
     </footer>
     <script>
       escolher_aba(1);
+      hora_atual();
     </script>
 </body>
 </html>

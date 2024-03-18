@@ -1,5 +1,11 @@
 imprime = (msg) => console.log(msg);
-
+const data = new Date();
+function hora_atual(){
+    setTimeout(() =>{    
+   document.getElementById("h").innerHTML = data.getHours() + ":" + data.getMinutes() + ":" + data.getSeconds();
+   hora_atual();
+  }, 1000);
+}
 fazerSorteio = ()  => {
     let num1 = document.getElementById("inicio").value;
     let num2 = document.getElementById("fim").value;

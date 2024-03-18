@@ -31,18 +31,19 @@
 .abageral{
     width: 100%;
     height: 400px;
+    display: none;
 }
 .aba1 {
     background-color: rgb(255, 175, 175);
 }
 .aba2 {
-    background-color: rgb(250, 212, 162);
+    background-color: rgb(255, 106, 106);
 }
 .aba3 {
-    background-color: rgb(255, 250, 185);
+    background-color: rgb(245, 236, 102);
 }
 .aba4 {
-    background-color: rgb(165, 255, 162);
+    background-color: rgb(243, 237, 184);
 }
 @media (min-width: 800px) {
     .barra{
