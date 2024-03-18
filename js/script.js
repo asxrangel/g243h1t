@@ -11,10 +11,10 @@ fazerSorteio = ()  => {
 function escolher_aba(btn){
     for(let i = 1; i <= 4; i++){
         let id_btn = "btn"+i;
-        let id_aba = "aba"+i;
+        let id_aba = "ab"+i;
         document.getElementById(id_btn).style.backgroundColor = "aqua";
         document.getElementById(id_btn).disabled = false;
-        document.getElementsById(id_aba).style.display = "none";
+        document.getElementById(id_aba).style.display = "none";
     }
     if(btn == "1"){
         document.getElementById("btn1").style.backgroundColor = "aquamarine";
