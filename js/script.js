@@ -1,6 +1,8 @@
 imprime = (msg) => console.log(msg);
 const data = new Date();
 function hora_atual(){
+    const data = new Date();
+    
     setTimeout(() =>{    
    document.getElementById("h").innerHTML = data.getHours() + ":" + data.getMinutes() + ":" + data.getSeconds();
    hora_atual();
@@ -42,4 +44,22 @@ function escolher_aba(btn){
         document.getElementById("btn4").disabled = true;
         document.getElementById("ab4").style.display = "block";
     }
+}
+
+let contador = null;
+let inicio = 0;
+let fim = 0;
+function contagem(){
+    if(inicio == Number (fim) + 1) contador.clearInterval();
+    else{
+        document.getElementById("valor").innerHTML = inicio;
+        inicio++;
+    }
+}
+function iniciar(){
+ inicio = document.getElementById("inicio").value;
+ fim = document.getElementById("fim").value;
+ contador = setInterval(() => {
+    contagem();
+ }, 1000);
 }
