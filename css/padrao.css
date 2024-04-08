@@ -1,3 +1,7 @@
+.set_tempo{
+    width: 48px;
+    border-color: black;
+}
 .barra {
     width: 100%;
     height: 100px;
